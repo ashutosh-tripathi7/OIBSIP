@@ -1,0 +1,121 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background: url('background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.6); /* Adding a dark overlay */
+    min-height: 100vh;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin: 0;
+    color: #0a0a0a;
+}
+
+header p {
+    font-size: 1.2em;
+    max-width: 600px;
+    color: #dcdcdc;
+    word-spacing: 20px;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.contact-info, .contact-form {
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 500px;
+    color: #333; /* Dark text for contrast on light background */
+}
+
+.contact-info ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contact-info li {
+    margin-bottom: 15px;
+    font-size: 1.1em;
+}
+
+.contact-info .icon {
+    font-size: 1.5em;
+    margin-right: 10px;
+}
+
+.contact-form h2 {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+    color: #333;
+    
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input, textarea {
+    font-size: 1em;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    color: #333;
+}
+
+button {
+    font-size: 1.2em;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2em;
+    }
+
+    header p {
+        font-size: 1em;
+    }
+
+    .contact-info li, form input, form textarea, form button {
+        font-size: 1em;
+    }
+}

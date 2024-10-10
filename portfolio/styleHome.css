@@ -1,0 +1,57 @@
+/* styleHome.css */
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.header h1 {
+    margin: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.container1, .container2, .container3, .container4 {
+    padding: 20px 0;
+    text-align: center;
+}
+
+.container1 {
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container2 {
+    background-color: #e2e2e2;
+    color: #333;
+}
+
+.container3 {
+    background-color: #d1d1d1;
+    color: #333;
+}
+
+.container4 {
+    background-color: #c0c0c0;
+    color: #333;
+}
+
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
